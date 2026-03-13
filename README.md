@@ -1,46 +1,91 @@
-# Magic Influencers - React Native Assignment
+Magic Influencers - React Native Assignment
 
-A modern React Native mobile application that simulates an influencer marketing platform. This project demonstrates core React Native fundamentals, including functional components, hooks (`useState`, `useEffect`), external API integration, and multi-screen navigation.
+A modern React Native mobile application built for the Magic brand to simulate a premium influencer marketing platform. This project demonstrates proficiency in React Native fundamentals, API integration, and clean UI/UX design.
 
-## 🚀 Features
+🚀 Key Features
 
-* **Influencer List Screen:** Displays a dynamic list of influencers fetched from the `randomuser.me` API.
-* **Smart Search:** Real-time filtering allowing users to search for influencers by either name or location.
-* **Favorites System:** Users can toggle a star icon to mark specific influencers as favorites.
-* **Detailed Profiles:** A dedicated screen showing in-depth influencer statistics, including randomly generated metrics for followers and engagement rates.
-* **Simulated Campaigns:** Integrates with `jsonplaceholder` to display recent marketing campaign posts for each profile, automatically formatted into professional English marketing copy.
-* **Modern UI/UX:** Features a polished, responsive design with floating cards, custom badges, overlapping profile headers, and smooth scrolling.
+Dynamic Influencer Discovery: Fetches real-time data from the randomuser.me API, localized for English-speaking regions.
 
-## 🛠 Tech Stack
+Intelligent Search: Allows users to filter influencers instantaneously by Name or Location.
 
-* **Framework:** React Native (Expo)
-* **Navigation:** React Navigation (`@react-navigation/native-stack`)
-* **State Management:** React Hooks
-* **Data Fetching:** Native Fetch API
+Favorites System: Interactive "Favorite" toggles to save top influencers.
 
-## 📂 Project Structure
+Premium Profile Experience: A redesigned detail screen featuring overlapping profile images, brand-themed banners, and a clickable contact button.
 
-The codebase is organized into a clean, modular structure for readability and scalability:
+Campaign Portfolio: Integrates with jsonplaceholder to display recent marketing campaigns, automatically translated from Latin placeholder text into professional English marketing copy.
 
-```text
+Polished UI/UX: Built with a modern Indigo theme, high-quality typography, rounded "pill" components, and smooth scroll interactions.
+
+🛠 Tech Stack
+
+Framework: React Native (Expo)
+
+Navigation: React Navigation Stack
+
+State Management: React Hooks (useState, useEffect)
+
+Networking: Fetch API with custom data mapping for English localization
+
+Styling: StyleSheet with modern design tokens (Shadows, Flexbox, Border Radii)
+
+📂 Project Structure
+
+The project follows a modular architecture for high maintainability:
+
 InfluencerApp/
-├── App.js                   # Application entry point & Navigation Stack
-├── package.json             # Dependencies and scripts
+├── App.js                   # Navigation config & Entry Point
+├── package.json             # Dependencies & Project Scripts
 └── src/
     ├── api/
-    │   └── fetchData.js     # Centralized API logic and data formatting
+    │   └── fetchData.js     # API logic & English data translation
     ├── components/
-    │   └── InfluencerCard.js # Reusable UI component for the list view
+    │   └── InfluencerCard.js # List-item UI component
     └── screens/
-        ├── InfluencerList.js # Main landing and search screen
-        └── InfluencerDetail.js # Expanded profile and campaign view
-
-## visual proof 
+        ├── InfluencerList.js # Home screen & Search functionality
+        └── InfluencerDetail.js # Premium profile & Campaign view
 
 
+⚙️ Setup & Installation Instructions
 
-https://githu![img3](https://github.com/user-attachments/assets/f560de9d-19ad-4d1c-b2f0-17cead2496f3)
-b.com/![img2](https://github.com/user-attachments/assets/13fbf81d-1f1f-427a-aeb3-9d428e1198d9)
-user-at![img1](https://github.com/user-attachments/assets/c42d30a3-a349-431c-a518-f9266fa227ea)
-tachments/assets/75228221-154c-46f9-a62d-5a39342a4d87
+Follow these steps to run the application on your local machine:
+
+1. Clone the repository
+
+git clone [https://github.com/sushiltiwari11/INFLUENCER_APP.git](https://github.com/sushiltiwari11/INFLUENCER_APP.git)
+cd INFLUENCER_APP
+
+
+2. Install dependencies
+
+npm install
+
+
+3. Start the development server
+
+npx expo start -c
+
+
+4. View the Application
+
+Mobile Device: Open the Expo Go app and scan the QR code.
+
+Android: Press a in your terminal to open the Android Emulator.
+
+iOS: Press i in your terminal to open the iOS Simulator.
+
+📸 Visual Proof
+
+App Screenshots
+screenshot 1: ![img1](https://github.com/user-attachments/assets/2f443a67-f8f8-47c9-9795-6b17d97c87ef)
+screenshot 2: ![img2](https://github.com/user-attachments/assets/69368b4c-3c8e-4080-9743-b7bed91097ad)
+screenshot 3: ![img3](https://github.com/user-attachments/assets/9f28940e-2dbc-49ac-8ad0-19ced705354e)
+
+
+App Walkthrough Video
+
+video link : https://github.com/user-attachments/assets/a2164c2a-628a-415d-8c41-9eb01e7b6ab0
+
+
+
+Author: Sushil Tiwari
 
