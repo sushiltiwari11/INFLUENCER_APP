@@ -34,3 +34,13 @@ InfluencerApp/
     └── screens/
         ├── InfluencerList.js # Main landing and search screen
         └── InfluencerDetail.js # Expanded profile and campaign view
+
+## visual proof 
+
+
+
+https://githu![img3](https://github.com/user-attachments/assets/f560de9d-19ad-4d1c-b2f0-17cead2496f3)
+b.com/![img2](https://github.com/user-attachments/assets/13fbf81d-1f1f-427a-aeb3-9d428e1198d9)
+user-at![img1](https://github.com/user-attachments/assets/c42d30a3-a349-431c-a518-f9266fa227ea)
+tachments/assets/75228221-154c-46f9-a62d-5a39342a4d87
+
