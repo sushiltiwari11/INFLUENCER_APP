@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# Magic Influencers - React Native Assignment
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern React Native mobile application that simulates an influencer marketing platform. This project demonstrates core React Native fundamentals, including functional components, hooks (`useState`, `useEffect`), external API integration, and multi-screen navigation.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+* **Influencer List Screen:** Displays a dynamic list of influencers fetched from the `randomuser.me` API.
+* **Smart Search:** Real-time filtering allowing users to search for influencers by either name or location.
+* **Favorites System:** Users can toggle a star icon to mark specific influencers as favorites.
+* **Detailed Profiles:** A dedicated screen showing in-depth influencer statistics, including randomly generated metrics for followers and engagement rates.
+* **Simulated Campaigns:** Integrates with `jsonplaceholder` to display recent marketing campaign posts for each profile, automatically formatted into professional English marketing copy.
+* **Modern UI/UX:** Features a polished, responsive design with floating cards, custom badges, overlapping profile headers, and smooth scrolling.
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
 
-2. Start the app
+* **Framework:** React Native (Expo)
+* **Navigation:** React Navigation (`@react-navigation/native-stack`)
+* **State Management:** React Hooks
+* **Data Fetching:** Native Fetch API
 
-   ```bash
-   npx expo start
-   ```
+## 📂 Project Structure
 
-In the output, you'll find options to open the app in a
+The codebase is organized into a clean, modular structure for readability and scalability:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+InfluencerApp/
+├── App.js                   # Application entry point & Navigation Stack
+├── package.json             # Dependencies and scripts
+└── src/
+    ├── api/
+    │   └── fetchData.js     # Centralized API logic and data formatting
+    ├── components/
+    │   └── InfluencerCard.js # Reusable UI component for the list view
+    └── screens/
+        ├── InfluencerList.js # Main landing and search screen
+        └── InfluencerDetail.js # Expanded profile and campaign view
